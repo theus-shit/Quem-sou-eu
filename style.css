@@ -1,0 +1,47 @@
+/*
+Este é um arquivo CSS.
+Ele define a aparência da sua página HTML.
+Você pode salvá-lo como 'style.css' no mesmo local do seu arquivo HTML.
+*/
+
+/*
+Estilo geral para o corpo da página.
+Define a fonte, cor de fundo e alinhamento do texto.
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para a seção principal da página. */
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o título principal. */
+h1 {
+    text-align: center;
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a div que contém os parágrafos. */
+.texto {
+    font-size: 1.1em;
+}
+
+/* Estilo para cada parágrafo. */
+.texto p {
+    margin-bottom: 15px;
+}
